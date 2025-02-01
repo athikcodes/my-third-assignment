@@ -25,55 +25,55 @@
   font-style: normal;
 }
 
-    </style>
+</style>
+
   </head>
   <body class="sora-normal">
   <header>
-  <nav class="bg-orange-50 border-[0.5px] border-black md:border-hidden lg:border-hidden ">
+  <nav class="bg-orange-50 border-[0.5px] border-black lg:border-hidden lg:w-full w-[425px] ">
     <nav-bar class="flex items-center justify-between h-[100px] container mx-auto">
         <div class="flex items-center">
             <img class="ml-4" src="c1-assets/logo-header.png" alt="">
         <h1 class="hidden md:inline-block lg:inline-block text-2xl ml-3 ">Browse<span class="text-yellow-300">4</span>Pets</h1>
         </div>
-        <div class="text-xl hidden md:inline-block lg:inline-block">
+        <div class="text-xl hidden  lg:inline-block">
             <a class="mr-8" href="">Find a pet</a>
             <a class="mr-8" href="">Breeds</a>
             <a class="mr-8" href="">Contact us</a>
         </div>
         <div class="">
-            <div class="hidden md:inline-block lg:inline-block">
-                <i class="fa-solid fa-bell mr-2 hidden md:inline-block lg:inline-block" ></i>
+            <div class="hidden  lg:inline-block">
+                <i class="fa-solid fa-bell mr-2 hidden  lg:inline-block" ></i>
             <i class="fa-solid fa-magnifying-glass mr-5 hidden md:inline-block lg:inline-block" ></i>
             </div>
-            <button class="text-xl border border-yellow-300 px-8 py-2 rounded-lg mr-3 hidden md:inline-block lg:inline-block">Login</button>
-            <button class="text-xl bg-yellow-300 px-8 py-2 rounded-lg hidden md:inline-block lg:inline-block">Register</button>
+            <button class="text-xl border border-yellow-300 px-8 py-2 rounded-lg mr-3 hidden lg:inline-block hover:bg-yellow-300">Login</button>
+            <button class="text-xl bg-yellow-300 px-8 py-2 rounded-lg hidden  lg:inline-block hover:bg-yellow-500">Register</button>
 
             
         </div>
-        <div class="md:hidden lg:hidden mr-7 ">
+        <div class=" lg:hidden mr-7 ">
             <i class="fa-solid fa-bars lg:hidden"></i>
         </div>
         
         </nav-bar>
     </nav>
  
-    <div class="container m-auto flex flex-col-reverse ">
-     <div>
-      <img class="lg:top-22" src="c1-assets/cat-big.png" alt="">
-     </div>
+    <div class="container m-auto ">
+   
          
-    <div class="ml-4 ">
-      <h1 class="adlam-display-NORMAL text-3xl lg:text-5xl mt-3 lg:mb-4 lg:mt-24">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
-      <p class="text-gray-500 mb-4 lg:mb-6">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
-      <button class="text-sm lg:text-xl bg-yellow-300 px-5 py-2 lg:px-8 lg:py-2 rounded-lg ">Find a pet</button>
+    <div class="lg:ml-4 lg:pl-1 pl-5 bg-[url('c1-assets/cat-big.png')] bg-contain bg-center bg-no-repeat lg:h-[740px] h-[580px] " >
+      <h1 class="adlam-display-NORMAL text-3xl lg:text-5xl lg:mb-4 lg:mt-24 mt-3 lg:pt-12 animate-bounce">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
+      <p class="text-gray-500 mb-4 lg:mb-6 mt-10 animate-pulse">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
+      <button class="text-sm lg:text-xl bg-yellow-300 px-5 py-2 lg:px-8 lg:py-2 rounded-lg animate-spin">Find a pet</button>
       
     </div>
     </div>
+
   </header>
 
   <main>
-    <h1 class="text-2xl mt-12 lg:mt-[140px] lg:container lg:m-auto adlam-display-NORMAL ml-2" >Browse By Categories</h1>
-     <section class=" lg:container lg:m-auto grid lg:grid-cols-6 grid-cols-2  gap-x-16 gap-y-3 mt-11 lg:mt-[48px] ml-2">
+    <h1 class="text-2xl pt-12 lg:mt-[140px] -mt-50 lg:container lg:m-auto adlam-display-NORMAL ml-2" >Browse By Categories</h1>
+     <section class=" lg:container lg:m-auto grid lg:grid-cols-6 grid-cols-2  lg:gap-x-16 gap-y-3 mt-11 lg:mt-[48px] ml-2">
      
 
       <div class="grid place-items-center py-8 bg-yellow-300 lg:w-50 w-47 lg:h-63 h-60 rounded-xl">
@@ -134,7 +134,7 @@
               <div class="bg-yellow-300 lg:w-106 w-100 lg:h-100 h-96 rounded-lg mb-5 ">
                 <h1 class="adlam-display-NORMAL text-2xl  mb-6 pt-15 ml-7">T-Shirt For Dogs</h1>
                 <p class="text-gray-500 mb-4 ml-7">Discover a word of treats, toys and<br>essential handpicked for</p>
-                <button class="bg-white px-7 py-2 rounded-lg ml-7">Shop Now</button>
+                <button class="bg-white px-7 py-2 rounded-lg ml-7 hover:bg-gray-300">Shop Now</button>
                 <img class="-mt-37 ml-50" src="c1-assets/cute-pet-small.png" alt="">
               
               </div>
@@ -254,25 +254,27 @@
              </div>
      </section>
 
+     
+
      <!-- low price section -->
       <section class="mt-35 container m-auto">
-        <h1 class="text-2xl container m-auto adlam-display-NORMAL mb-11">Everyday low Price</h1>
+        <h1 class="text-2xl container m-auto adlam-display-NORMAL mb-11 lg:ml-0 ml-7">Everyday low Price</h1>
         <div class="lg:flex lg:justify-between ">
-          <div class=" w-[357px] h-[334px] lg:w-[784px] lg:h-[480px] bg-gradient-to-r from-red-50 to-slate-300 flex items-center justify-between rounded-lg">
-            <div class="ml-19">
-              <p class="">Under Price</p>
-            <p class="adlam-display-NORMAL">Pet Grooming Mitt</p>
-            <p class="text-white">(Easy Hair Removal)</p>
+          <div class=" w-[357px] h-[334px] lg:w-[784px] lg:h-[480px] bg-gradient-to-r from-red-50 to-slate-300 flex  justify-between rounded-lg lg:mb-1 mb-4 lg:ml-1 ml-7">
+            <div class="lg:ml-19 ml-7">
+            <p class="hidden lg:flex">Under Price</p>
+            <p class="adlam-display-NORMAL lg:mt-1 mt-8">PetGroomingMitt</p>
+            <p class="text-white hidden lg:flex">(Easy Hair Removal)</p>
             <p class="text-3xl">$7.99</p>
             </div>
             <div class=" mt-8">
-              <img class="" src="c1-assets/cute-dog-mid.png" alt="">
+              <img class="lg:mr-1 mr-10 lg:mt-1 mt-18" src="c1-assets/cute-dog-mid.png" alt="">
             </div>
           
 
           </div>
          
-          <div class="lg:w-[512px] lg:h-[480px] w-[357px] h-[334px]  bg-gradient-to-r from bg-yellow-50 to-yellow-200 flex justify-center rounded-lg ">
+          <div class="lg:w-[512px] lg:h-[480px] w-[357px] h-[334px]  bg-gradient-to-r from bg-yellow-50 to-yellow-200 flex justify-center rounded-lg lg:mb-0 mb-6 lg:ml-0 ml-7">
             <div class="mt-20 ml-4">
               <p class=" adlam-display-NORMAL text-xl mb-3">T-Shirt for Dogs</p>
               <p class="text-4xl text-yellow-300">$7.99</p>
@@ -289,8 +291,8 @@
   </main>
   
     <footer>
-   <div  class="bg-red-50 lg:h-[491px] h-[523px] container m-auto relative lg:top-60 top-70 ">
-    <div class="lg:flex justify-start lg:gap-40">
+   <div  class="bg-red-50 lg:h-[491px] h-[523px] container m-auto relative lg:top-60 ">
+    <div class="lg:flex justify-start lg:gap-40 ">
       <div class="lg:h-[415px] lg:w-[330px] h-[238px] w-[130px]">
         <img class="lg:mt-20 lg:pt-0 pt-10  lg:ml-20 ml-35" src="c1-assets/cute-pet-mid.png" alt="">
         
@@ -300,7 +302,7 @@
         <p class="mb-8 text-xl lg:ml-0  ml-5">Exclusive training tips, ticks, product deals and more.</p>
         <input class="lg:w-[472px] lg:h-[67px] w-80 h-10 bg-white pl-5  lg:mb-9 mb-3 rounded-lg lg:ml-0  ml-5" type="email" placeholder="Enter email....">
         <div>
-          <button class="bg-yellow-300 px-6 py-2 rounded-lg lg:ml-0  ml-33">Subscribe</button>
+          <button class="bg-yellow-300 px-6 py-2 rounded-lg lg:ml-0  ml-33 hover:bg-indigo-500 hover:text-red-200">Subscribe</button>
         </div>
 
       </div>
@@ -309,11 +311,11 @@
 
 
 
-      <div  class="bg-yellow-300 h-[654px]">
+      <div  class="bg-yellow-300 h-[654px] ">
 
-      <div class="lg:flex lg:justify-between lg:items-center container m-auto ">
-        <div class="mt-60">
-          <div class="flex items-center pt-45">
+      <div class="lg:flex lg:justify-between lg:items-center container m-auto lg:pl-0 pl-4 lg:-mt-1 -mt-100">
+        <div class="mt-60 ">
+          <div class="flex items-center pt-45 ">
             <div>
               <img class="" src="c1-assets/logo-footer.png"  alt="">
             </div>
